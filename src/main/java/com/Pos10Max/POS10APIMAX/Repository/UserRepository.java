@@ -45,7 +45,7 @@ public interface UserRepository extends JpaRepository<UserEntity,Long>, CrudRepo
 
 //    @Transactional
 ////    @Query("Select case when count(s)>0 then true else false end from user u where u.username = ?1")
-    Boolean checkEmailExist(String email);
+//    Boolean checkEmailExist(String email);
 
 
 }
