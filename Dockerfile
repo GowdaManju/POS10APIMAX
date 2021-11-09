@@ -1,0 +1,4 @@
+FROM openjdk:8
+EXPOSE 6666
+ADD target/POSDOCKER.jar POSDOCKER.jar
+ENTRYPOINT ["java","-jar","/POSDOCKER.jar"]
